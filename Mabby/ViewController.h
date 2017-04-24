@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *Abby;
 
+@property (weak, nonatomic) IBOutlet UIButton *Matt;
+@property (weak, nonatomic) IBOutlet UIImageView *DLeftArrow;
 
 @end
 

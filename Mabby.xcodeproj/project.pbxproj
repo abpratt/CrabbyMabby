@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7118E48E1E8C2AF500929A0A /* ViewController_IAMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E48D1E8C2AF500929A0A /* ViewController_IAMM.m */; };
 		714A02411E81847E00F1F318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714A02401E81847E00F1F318 /* main.m */; };
 		714A02441E81847E00F1F318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714A02431E81847E00F1F318 /* AppDelegate.m */; };
 		714A02471E81847E00F1F318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714A02461E81847E00F1F318 /* ViewController.m */; };
 		714A024A1E81847E00F1F318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714A02481E81847E00F1F318 /* Main.storyboard */; };
 		714A024C1E81847E00F1F318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714A024B1E81847E00F1F318 /* Assets.xcassets */; };
 		714A024F1E81847E00F1F318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714A024D1E81847E00F1F318 /* LaunchScreen.storyboard */; };
+		71A1E4851E82ED6500B3C8A3 /* 1523-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A1E4841E82ED6500B3C8A3 /* 1523-200.png */; };
+		71A5A9161EAE645200403A16 /* imgres.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A9151EAE645200403A16 /* imgres.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7118E48C1E8C2AF500929A0A /* ViewController_IAMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_IAMM.h; sourceTree = "<group>"; };
+		7118E48D1E8C2AF500929A0A /* ViewController_IAMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_IAMM.m; sourceTree = "<group>"; };
 		714A023C1E81847E00F1F318 /* Mabby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mabby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714A02401E81847E00F1F318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		714A02421E81847E00F1F318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		714A024B1E81847E00F1F318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714A024E1E81847E00F1F318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714A02501E81847E00F1F318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A1E4841E82ED6500B3C8A3 /* 1523-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1523-200.png"; sourceTree = "<group>"; };
+		71A5A9151EAE645200403A16 /* imgres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgres.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,8 @@
 				714A02451E81847E00F1F318 /* ViewController.h */,
 				714A02461E81847E00F1F318 /* ViewController.m */,
 				714A02481E81847E00F1F318 /* Main.storyboard */,
+				7118E48C1E8C2AF500929A0A /* ViewController_IAMM.h */,
+				7118E48D1E8C2AF500929A0A /* ViewController_IAMM.m */,
 				714A024B1E81847E00F1F318 /* Assets.xcassets */,
 				714A024D1E81847E00F1F318 /* LaunchScreen.storyboard */,
 				714A02501E81847E00F1F318 /* Info.plist */,
@@ -74,6 +83,8 @@
 		714A023F1E81847E00F1F318 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71A1E4841E82ED6500B3C8A3 /* 1523-200.png */,
+				71A5A9151EAE645200403A16 /* imgres.png */,
 				714A02401E81847E00F1F318 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				714A024F1E81847E00F1F318 /* LaunchScreen.storyboard in Resources */,
+				71A5A9161EAE645200403A16 /* imgres.png in Resources */,
+				71A1E4851E82ED6500B3C8A3 /* 1523-200.png in Resources */,
 				714A024C1E81847E00F1F318 /* Assets.xcassets in Resources */,
 				714A024A1E81847E00F1F318 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +165,7 @@
 			files = (
 				714A02471E81847E00F1F318 /* ViewController.m in Sources */,
 				714A02441E81847E00F1F318 /* AppDelegate.m in Sources */,
+				7118E48E1E8C2AF500929A0A /* ViewController_IAMM.m in Sources */,
 				714A02411E81847E00F1F318 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +323,7 @@
 				714A02551E81847E00F1F318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
